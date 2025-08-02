@@ -13,13 +13,13 @@ export default function NotFound() {
           </div>
           <CardTitle className="text-2xl">Page Not Found</CardTitle>
           <CardDescription className="text-base">
-           ` Sorry, we couldnt find the page youre looking for. It might have been moved, deleted, or you entered the
-            wrong URL.`
+            Sorry, we couldn't find the page youre looking for. It might have been moved, deleted, or you entered the
+            wrong URL.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button asChild className="flex items-center gap-2">
+            <Button asChild variant="ghost" className="flex items-center gap-2">
               <Link href="/">
                 <Home className="w-4 h-4" />
                 Go Home
